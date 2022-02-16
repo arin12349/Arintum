@@ -1,2 +1,2 @@
 # Arintum
-made it similar to Chrom app momentum.
+Nade it similar to Chrom app momentum.

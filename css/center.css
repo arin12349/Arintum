@@ -1,0 +1,29 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.center .input-name{
+    background: none;
+    border: none;
+    appearance: none;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+
+.center .name_text{
+    background: none;
+    border: none;
+    appearance: none;
+    font-size: 30px;
+    color:white;
+}
+::placeholder{
+    color:white;
+    text-align: center;
+}

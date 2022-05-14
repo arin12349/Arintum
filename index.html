@@ -4,15 +4,43 @@
     <title>Momentum Clone</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script> 
   </head>
 
   <body>
-    <div id="screen" data-friction-x="0.1" data-friction-y="0.1" data-origin-x="0" data-origin-y="0">
-      <div class="bg" data-depth="0.5"></div>
+    <div id="screen" data-friction-x="0.1" data-friction-y="0.1" data-origin-x="0.5" data-origin-y="0.5">
+      <div class="background" data-depth="0.5">
+        <div class="bg"></div>
+      </div>
       <section class="center" data-depth="0.1">
-        <h3 class="clock"></h3>
-        <div class="name"></div>
+        <div class="info-center">
+          <h3 class="clock"></h3>
+          <div class="name"></div>
+        </div>
       </section>
+      <section class="neon" data-depth="0.1 ">
+        <div class="info-center neon"></div>
+      </section>
+    </div>
+    <form class="sidebar close">
+      <span class="bookmark">t<br>o<br>d<br>o</span>
+      <header>
+        <span class="header-text">Todo</span>
+      </header>
+      <div class="list">
+        <div class="check-list"></div>
+        <div class="todo-list"></div>
+        <div class="delete-list"></div>
+      </div>
+    </form>
+    <div class="weather">
+      <i class="wi"></i>
+      <span class="temp"></span>
+    </div>
+    <div class="location">
+      <span class="city"></span>
+      <span class="town"></span>
+      <span class="sub"></span>
     </div>
     <h1 class="date"></h1>
 
@@ -20,5 +48,9 @@
     <script src="js/bg.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/greeting.js"></script>
+    <script src="js/neon.js"></script>
+    <script src="js/sidebar.js"></script> 
+    <script src="js/weather.js"></script>
+    <script src="js/location.js"></script>
   </body>
 </html>

@@ -3,11 +3,11 @@ const LOCALSTORAGE_NAME_KEY = "name";
 
 
 function handleSubmit(event){
+    console.log("aa");
     event.preventDefault();
     const form = event.target;
     const input = form.querySelector("input");
     const value = input.value;
-    console.log(value);
     localStorage.setItem(LOCALSTORAGE_NAME_KEY, value);
     paintName(value);
 }
@@ -25,6 +25,10 @@ function paintLogin(){
 
 function paintName (name){
     nameContianer.innerHTML = "";
+    // const inputlist = document.querySelectorAll(".input-name");
+    // console.log(inputlist);
+    // inputlist.forEach((list)=>(list.remove()));
+    // console.log("remove!");
     const title = document.createElement("span");
     title.className = "name_text";
     title.innerHTML = `Hello ${name}`;

@@ -12,8 +12,9 @@ function clockMake(){
   const second = String(date.getSeconds()).padStart(2, "0");
 
   nowDate.innerText = `${year}-${month}-${day}`;
-  clock.innerText = `${hour}:${minute}`;
+  clock.innerText = `${hour}:${minute}:${second}`;
 }
+
 
 clockMake();
 setInterval(clockMake, 1000);

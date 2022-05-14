@@ -1,12 +1,30 @@
 .center{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+    position: absolute;
+    z-index: 100;
+    /* position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
 }
-
-.center .input-name{
+.info-center{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    /* pointer-events: auto; */
+}
+.input-name{
     background: none;
     border: none;
     appearance: none;
@@ -14,16 +32,32 @@
     color: white;
     text-align: center;
     border-bottom: 3px solid white;
+    pointer-events: auto;
 }
 
-.center .name_text{
+.name_text{
     background: none;
     border: none;
     appearance: none;
     font-size: 30px;
     color:white;
+    display:block;
 }
 ::placeholder{
     color:white;
     text-align: center;
+}
+.neon1::placeholder{
+    color:rgb(226, 86, 154);
+    text-align: center;
+}
+.neon2::placeholder{
+    color:rgb(102, 142, 207);
+    text-align: center;
+}
+.neon1.input-name{
+    border-bottom: 3px solid rgb(226, 86, 154);
+}
+.neon2.input-name{
+    border-bottom: 3px solid rgb(102, 142, 207);
 }

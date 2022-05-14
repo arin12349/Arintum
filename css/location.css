@@ -1,0 +1,11 @@
+.location{
+    position: absolute;
+    bottom:20px;
+    left:25px;
+    font-weight: bold;
+}
+.icon{
+    filter: invert(100%) sepia(53%) saturate(900%) hue-rotate(222deg) brightness(118%) contrast(100%);
+    width: 20px;
+    height: 20px;
+}

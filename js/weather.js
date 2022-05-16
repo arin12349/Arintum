@@ -3,7 +3,7 @@ const WEATHER_APIKEY = "e7d7d0cf82cb14bf5acb564c59f4b5ab";
 function success({ coords, timestamp }) {
   const latitude = coords.latitude; // 위도
   const longitude = coords.longitude; // 경도
-  alert(`위도: ${latitude}, 경도: ${longitude}, 위치 반환 시간: ${timestamp}`);
+  // alert(`위도: ${latitude}, 경도: ${longitude}, 위치 반환 시간: ${timestamp}`);
   getWeather(latitude, longitude);
   findLocation(latitude,longitude);
 }

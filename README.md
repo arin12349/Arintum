@@ -3,7 +3,7 @@ Made it similar to Chrom app momentum.
 
 ## Features
 
-- [ ] Clock
+- [v] Clock
 - [ ] To Do List
 - [ ] Weather
 - [ ] Daily Quote

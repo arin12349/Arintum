@@ -229,7 +229,6 @@ function loadQuotes() {
       }
       else{
         //document.body.style.backgroundImage =`url(${parseBg.url})`;
-        console.log(parseQuoto);
         spanQuoto.textContent = parseQuoto.quote;
         spanAuthor.textContent = parseQuoto.author;
       }

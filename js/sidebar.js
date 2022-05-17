@@ -47,7 +47,6 @@ function makeSidbar(){
     todoList.textContent="";
     checkList.textContent="";
     deleteList.textContent="";
-    console.log(sidebar.offsetWidth);
     makeInput();
     if (check != null || todo != null){
         makeTodo(todo);

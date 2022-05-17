@@ -29,8 +29,8 @@ function loadBg() {
   }
 }
 
+
 function resize(){
-  console.log("resize!")
   // bg.style.width= window.innerWidth+300+'px';
   // bg.style.height= window.innerWidth+50+'px';
   screen.style.width= window.innerWidth+'px';

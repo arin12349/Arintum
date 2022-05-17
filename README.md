@@ -9,3 +9,7 @@ Made it similar to Chrom app momentum.
 - [v] Daily Quote
 - [v] Daily Photo
 - [ ] Change own settings
+
+## Sample Pages
+
+https://arin12349.github.io/Arintum/

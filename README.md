@@ -8,7 +8,7 @@ Made it similar to Chrom app momentum.
 - [x] Weather
 - [x] Daily Quote
 - [x] Daily Photo
-- [x] Change own settings
+- [ ] Change own settings
 
 ## Sample Pages
 

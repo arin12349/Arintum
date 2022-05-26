@@ -1,4 +1,4 @@
-const WEATHER_APIKEY = "e7d7d0cf82cb14bf5acb564c59f4b5ab";
+const WEATHER_APIKEY = "";
 
 function success({ coords, timestamp }) {
   const latitude = coords.latitude; // 위도
